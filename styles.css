@@ -175,3 +175,35 @@ footer p {
 .container {
     padding: 20px;
 }
+
+
+/* ********************* */
+/* Style for the portfolio card container */
+.portfolio-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  /* Style for portfolio card text */
+  .portfolio-card p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Add hover effect for portfolio cards */
+  .portfolio-card:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+  }
+
+  
+  
+  
+  
+  
+  
